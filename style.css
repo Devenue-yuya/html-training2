@@ -1,0 +1,47 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+body {
+  background-color: #e6e2d7;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://code-step.com/demo/html/store3/img/mainvisual-pc.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  writing-mode: vertical-rl;
+  margin-bottom: 180px;
+  padding: 60px 0px;
+}
+header h1 {
+  color: #FFF;
+  font-family: serif;
+  font-size: 40px;
+  letter-spacing: 0.3em;
+  margin-left: 50px;
+  margin-right: 60px;
+}
+nav li {
+  color: #FFF;
+  font-size: 16px;
+  font-family: serif;
+  list-style: none;
+  margin-left: 25px;
+}
+.onlinestore {
+  background: rgba(255,255,255,0.2);
+  padding: 8px;
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+}
+.onlinestore a {
+  display: block;
+  color: #FFF;
+  border: solid 1px #ccc;
+  padding: 30px 18px;
+  text-decoration: none;
+}

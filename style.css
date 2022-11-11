@@ -54,13 +54,13 @@ main {
   display: flex;
   flex-direction: row-reverse;
 }
-.news-tite {
+.news-title {
   writing-mode: vertical-rl;
   margin-right: 60px;
   padding: 0px 0px 0px 30px;
   font-weight: normal;
 }
-.news-tite :nth-child(2) {
+.news-title :nth-child(2) {
   font-size: 36px;
   display: block;
 }
@@ -84,18 +84,18 @@ dl dt {
   display: flex;
   flex-direction: row-reverse;
 }
-.products1-tite {
+.products1-title {
   writing-mode: vertical-rl;
   margin-right: 60px;
   padding: 0px 30px 0px 0px;
   margin-left: 15px;
   font-weight: normal;
 }
-.products1-tite :first-child {
+.products1-title :first-child {
   font-size: 36px;
   margin-bottom: 18px;
 }
-.products1-tite  :nth-child(2) {
+.products1-title  :nth-child(2) {
   font-size: 24px;
 }
 .img1 p {
@@ -107,4 +107,30 @@ dl dt {
   position: relative;
   bottom: 130px;
   right: 30px;
+}
+#products2 {
+  display: flex;
+  flex-direction: row;
+}
+.products2-title {
+  writing-mode: vertical-rl;
+  padding: 0px 30px 0px 60px;
+  font-weight: normal;
+}
+.products2-title :first-child {
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+.products2-title  :nth-child(2) {
+  font-size: 24px;
+}
+.img2 p {
+  background-color: rgba(149, 42, 38, 0.6);
+    color: #FFF;
+    width: 250px;
+    padding: 50px 50px;
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+    left: 330px;
 }
